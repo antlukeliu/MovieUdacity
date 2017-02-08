@@ -1,5 +1,5 @@
 import media
-from movies import fresh_tomatoes
+import fresh_tomatoes
 
 #A list of Movie with the attributes
 # movie_title, movie_storyline, poster_image, trailer_youtube
