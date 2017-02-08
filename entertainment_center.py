@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-#A list of Movie with the attributes
+# A list of Movie with the attributes
 # movie_title, movie_storyline, poster_image, trailer_youtube
 departed = media.Movie("The Departed", "A corrupt cop and an undercover cop",
                        "http://www.gstatic.com/tv/thumb/movieposters"
@@ -64,10 +64,10 @@ ipman = media.Movie("IP Man",
                     "3586588/p3586588_p_v8_ac.jpg",
                     "https://www.youtube.com/watch?v=1AJxXQ7xojE")
 
-#Every movie is put into a list
+# Every movie is put into a list
 movies = [departed, inception, batman, fightclub, goodwillhunting, thetown,
           startrek2009, fivehundreddaysofsummer, pitchperfect, ipman]
 
-#fresh_tomatoes.py will open a local web page containing the list of movies
-#Movie title and poster of the specific movie will be shown
+# fresh_tomatoes.py will open a local web page containing the list of movies
+# Movie title and poster of the specific movie will be shown
 fresh_tomatoes.open_movies_page(movies)
